@@ -32,4 +32,11 @@ public class ContactInfo implements Serializable{
 		this.phoneNumber = phoneNumber;
 	}
 
+	@Override
+	public String toString() {
+		return "ContactInfo [emailId=" + emailId + ", phoneNumber="
+				+ phoneNumber + "]";
+	}
+	
+
 }
